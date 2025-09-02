@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66B454B4-A22A-FAAB-3CF4-D165FFD552C3" containerWithKeyObject="3FCD583A-8220-F1BE-2F65-7B3E1771A057" localFKIndex="C08E8EBD-CF5F-CA5B-4539-DA7E2259904A" name="PERMANENTE_RESIDENTE_FK">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>32C50FA3-3262-EBDE-C848-D95E10DE12BC</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<referredTableLongName>RESIDENTE</referredTableLongName>
+<arc>D5E0BAAD-BFE3-5DF2-E619-C18307B8E031</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B1D3A59-EAD1-9C61-B21C-BF7B4741499D</referredTableID>
+<keyObject>3A306B7D-D442-A495-B99C-56C29BEFA795</keyObject>
+<referredKeyID>3A306B7D-D442-A495-B99C-56C29BEFA795</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_residente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

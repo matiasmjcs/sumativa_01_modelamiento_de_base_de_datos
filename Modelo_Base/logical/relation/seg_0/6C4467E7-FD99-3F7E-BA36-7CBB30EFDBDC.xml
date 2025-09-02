@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="suscribe" directorySegmentName="seg_0" id="6C4467E7-FD99-3F7E-BA36-7CBB30EFDBDC">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:15:55 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<sourcePk>AF036082-F2D6-1DA6-1DC2-7E48DFEAE665</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>66166B3B-5A91-6D2E-A102-8156EA23DC65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9027E6A5-4611-D7AD-5549-B2ABCAD337A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

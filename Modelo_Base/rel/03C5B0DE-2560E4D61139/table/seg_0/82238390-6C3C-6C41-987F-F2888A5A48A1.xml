@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82238390-6C3C-6C41-987F-F2888A5A48A1" name="TEMPORAL">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>75C3662B-8142-062E-5E86-1A1DD52190FB</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_residente" id="ECAA0A07-57FA-1150-4B50-131D2D5ADEDA">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>9034E6C5-585E-A3B6-C428-527DB5E84B81</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46320FA4-E2F8-06FF-2271-2110984CA4A0" referredColumn="F5E93A67-47F5-955D-20B4-B2E0FD355994"/>
+</associations>
+</Column>
+<Column name="dias_estadia" id="3964AE6D-0FE2-8D42-D134-6AE3632F2139">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>BE72406E-6884-3967-DAAE-C115C9AB6456</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E196492-B466-A5D4-5BA8-0F38B3E4E4DB" name="TEMPORAL_PK">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>926F80CF-7E77-114E-CBC3-EDD6C96A6955</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECAA0A07-57FA-1150-4B50-131D2D5ADEDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA1A1DD6-D725-0701-574A-A704D091D0C2" name="TEMPORAL_RESIDENTE_FK">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:29:07 UTC</createdTime>
+<generatorID>045F10D9-C0CB-40AD-F4EB-5ADD2538CA30</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECAA0A07-57FA-1150-4B50-131D2D5ADEDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66166B3B-5A91-6D2E-A102-8156EA23DC65" name="APODERADO">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 02:28:15 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_apoderado" id="B222F608-5CD9-A306-7918-27EC524B2B32">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 02:28:42 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_apoderado" id="9176ED69-7679-B02E-BFAC-8BE86C5594BB">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 02:29:21 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contacto_apoderado" id="4D49C455-2029-4E63-A4A0-541ED03404B0">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 02:30:02 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF036082-F2D6-1DA6-1DC2-7E48DFEAE665" name="APODERADO PK">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 02:29:08 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B222F608-5CD9-A306-7918-27EC524B2B32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

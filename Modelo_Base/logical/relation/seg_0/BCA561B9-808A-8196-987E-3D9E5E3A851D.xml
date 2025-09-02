@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ocupa" directorySegmentName="seg_0" id="BCA561B9-808A-8196-987E-3D9E5E3A851D">
+<createdBy>matiasmejias</createdBy>
+<createdTime>2025-09-02 03:18:54 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="03C5B0DE-5815-8BCA-83BD-2560E4D61139" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>926F80CF-7E77-114E-CBC3-EDD6C96A6955</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>residente_ocupante</nameOnSource>
+<nameOnTarget>habitacion_ocupada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A285CAC-7E4E-19BC-2DC9-8BFB5B222453</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CB63FE38-F103-7205-0253-1AD8FE858287</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
